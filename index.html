@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Capital — La calculadora financiera para iPhone. Calcula préstamos, simula depósitos, analiza amortizaciones anticipadas y más."/>
-  <title>Capital — Calculadora de Préstamos, Depósitos y Amortización</title>
+  <meta name="description" content="Capital — The complete financial calculator for iPhone. Calculate loans, simulate deposits, analyze prepayments and more."/>
+  <title>Capital — Loan, Deposit & Prepayment Calculator</title>
   <link rel="stylesheet" href="style.css"/>
 
   <style>
@@ -151,7 +151,7 @@
     .feature-card h3 { font-size: 17px; font-weight: 800; margin-bottom: 8px; }
     .feature-card p  { font-size: 14px; color: var(--text-muted); line-height: 1.65; }
 
-    /* ── SIMULADOR / DEMO ── */
+    /* ── SIMULATOR ── */
     .simulador-section { background: linear-gradient(160deg, #0f172a, #1e3a8a); color: #fff; }
     .simulador-inner {
       max-width: 1080px; margin: 0 auto;
@@ -225,7 +225,7 @@
     .how-step h3 { font-size: 16px; font-weight: 800; margin-bottom: 8px; }
     .how-step p  { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
 
-    /* ── CALCULADORAS ── */
+    /* ── CALCULATORS ── */
     .calc-section { background: #fff; }
     .calc-inner { max-width: 900px; margin: 0 auto; }
     .calc-grid { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
@@ -248,7 +248,7 @@
     }
     .testimonial { background: #fff; border-radius: 20px; border: 1px solid var(--border); padding: 28px; }
     .stars { color: var(--yellow); font-size: 16px; margin-bottom: 14px; letter-spacing: 2px; }
-    .testimonial q { font-size: 15px; color: var(--text); line-height: 1.7; font-style: italic; quotes: "«" "»"; }
+    .testimonial q { font-size: 15px; color: var(--text); line-height: 1.7; font-style: italic; quotes: "\201C" "\201D"; }
     .testimonial q::before { content: open-quote; }
     .testimonial q::after  { content: close-quote; }
     .testimonial-author { margin-top: 16px; display: flex; align-items: center; gap: 12px; }
@@ -313,9 +313,6 @@
     .download-note { margin-top: 20px; font-size: 13px; color: #64748b; }
 
     /* ── RESPONSIVE ── */
-    @media (max-width: 900px) {
-      .premium-grid { grid-template-columns: repeat(2, 1fr); }
-    }
     @media (max-width: 720px) {
       .stats-inner { grid-template-columns: 1fr; }
       .stat { border-right: none; border-bottom: 1px solid var(--border); }
@@ -337,34 +334,34 @@
     <span>Capital</span>
   </a>
   <div class="nav-links">
-    <a href="#funcionalidades" class="nav-hide">Funcionalidades</a>
-    <a href="#calculadoras" class="nav-hide">Calculadoras</a>
-    <a href="support.html" class="nav-hide">Soporte</a>
-    <a href="#descargar" class="btn-nav">Descargar gratis</a>
+    <a href="#features" class="nav-hide">Features</a>
+    <a href="#calculators" class="nav-hide">Calculators</a>
+    <a href="support.html" class="nav-hide">Support</a>
+    <a href="#download" class="btn-nav">Download free</a>
   </div>
 </nav>
 
 <!-- ── HERO ── -->
 <section class="hero">
-  <div class="hero-badge">✨ Actualizado con las últimas fórmulas financieras</div>
+  <div class="hero-badge">✨ Updated with the latest financial formulas</div>
   <h1>
-    Calcula tu préstamo,<br/>depósito y<br/>
-    <span class="highlight">amortización anticipada</span>
+    Calculate your loan,<br/>deposit and<br/>
+    <span class="highlight">early repayment</span>
   </h1>
-  <p>La calculadora financiera más completa para iPhone. Simula préstamos, analiza depósitos y descubre cuánto ahorras amortizando antes de tiempo — en segundos.</p>
+  <p>The most complete financial calculator for iPhone. Simulate loans, analyze deposits and find out how much you save by repaying early — in seconds.</p>
   <div class="hero-ctas">
-    <a href="#descargar" class="btn-primary">
-      <span>🍎</span> Descarga gratis en iOS
+    <a href="#download" class="btn-primary">
+      <span>🍎</span> Download free on iOS
     </a>
-    <a href="#funcionalidades" class="btn-secondary">
-      Ver funcionalidades →
+    <a href="#features" class="btn-secondary">
+      See features →
     </a>
   </div>
 
   <!-- PHONE MOCKUP -->
   <div class="hero-mockup">
     <div class="phone">
-      <img src="images/screenshot-1.png" alt="Capital — Calculadora de préstamos"/>
+      <img src="images/screenshot-1.png" alt="Capital — Loan Calculator"/>
     </div>
   </div>
 </section>
@@ -374,51 +371,51 @@
   <div class="stats-inner">
     <div class="stat">
       <div class="stat-num">4</div>
-      <div class="stat-label">Calculadoras incluidas</div>
+      <div class="stat-label">Built-in calculators</div>
     </div>
     <div class="stat">
       <div class="stat-num">∞</div>
-      <div class="stat-label">Cálculos ilimitados</div>
+      <div class="stat-label">Unlimited calculations</div>
     </div>
     <div class="stat">
       <div class="stat-num">0</div>
-      <div class="stat-label">Datos personales requeridos</div>
+      <div class="stat-label">Personal data required</div>
     </div>
   </div>
 </div>
 
 <!-- ── FEATURES ── -->
-<section class="features-section" id="funcionalidades">
+<section class="features-section" id="features">
   <div style="max-width:1080px; margin:0 auto;">
     <div class="section-header">
-      <span class="section-label">Funcionalidades</span>
-      <h2 class="section-title">Todo lo que necesitas para<br/>tomar decisiones financieras inteligentes</h2>
-      <p class="section-sub">Capital reúne en un solo lugar las herramientas que necesitas para gestionar tu dinero con confianza y claridad.</p>
+      <span class="section-label">Features</span>
+      <h2 class="section-title">Everything you need to make<br/>smarter financial decisions</h2>
+      <p class="section-sub">Capital brings together in one place all the tools you need to manage your money with confidence and clarity.</p>
     </div>
     <div class="features-grid">
 
       <div class="feature-card">
         <div class="feature-icon blue">🏦</div>
-        <h3>Préstamos (Loans)</h3>
-        <p>Calcula tu cuota mensual, el total de intereses y el cuadro de amortización completo para cualquier préstamo hipotecario o personal.</p>
+        <h3>Loans</h3>
+        <p>Calculate your monthly payment, total interest and the complete amortization schedule for any mortgage or personal loan.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon teal">💰</div>
-        <h3>Depósitos (Deposits)</h3>
-        <p>Simula la rentabilidad de tus depósitos a plazo fijo con interés simple o compuesto. Descubre cuánto ganarás al vencimiento.</p>
+        <h3>Deposits</h3>
+        <p>Simulate the return on your fixed-term deposits with simple or compound interest. Find out exactly how much you'll earn at maturity.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon yellow">⚡</div>
-        <h3>Amortización anticipada (Prepayment)</h3>
-        <p>Calcula exactamente cuánto ahorras en intereses y cuánto tiempo ganas amortizando parte del capital antes de la fecha prevista.</p>
+        <h3>Prepayment</h3>
+        <p>Calculate exactly how much interest you save and how much time you gain by repaying part of the principal before the scheduled date.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon purple">📈</div>
-        <h3>Capital (Capital)</h3>
-        <p>Obtén el valor futuro y presente del dinero con interés compuesto. Ideal para planificar inversiones a largo plazo.</p>
+        <h3>Capital</h3>
+        <p>Get the future and present value of money with compound interest. Perfect for planning long-term investments and savings goals.</p>
       </div>
 
     </div>
@@ -429,92 +426,92 @@
 <section class="screenshots-section">
   <div class="screenshots-inner">
     <div class="section-header" style="text-align:center; padding: 88px 24px 0;">
-      <span class="section-label">La app por dentro</span>
-      <h2 class="section-title">Diseñada para ser simple.<br/>Potente cuando la necesitas.</h2>
+      <span class="section-label">Inside the app</span>
+      <h2 class="section-title">Designed to be simple.<br/>Powerful when you need it.</h2>
     </div>
     <div class="screenshots-scroll" style="padding: 32px 24px 48px;">
       <div class="screenshot-item">
-        <div class="phone-wrap"><img src="images/screenshot-1.png" alt="Calculadora de préstamos"/></div>
-        <div class="screenshot-caption">Calculadora de préstamos</div>
+        <div class="phone-wrap"><img src="images/screenshot-1.png" alt="Loan Calculator"/></div>
+        <div class="screenshot-caption">Loan Calculator</div>
       </div>
       <div class="screenshot-item">
-        <div class="phone-wrap"><img src="images/screenshot-2.png" alt="Cuadro de amortización"/></div>
-        <div class="screenshot-caption">Cuadro de amortización</div>
+        <div class="phone-wrap"><img src="images/screenshot-2.png" alt="Amortization Schedule"/></div>
+        <div class="screenshot-caption">Amortization Schedule</div>
       </div>
       <div class="screenshot-item">
-        <div class="phone-wrap"><img src="images/screenshot-3.png" alt="Amortización anticipada"/></div>
-        <div class="screenshot-caption">Amortización anticipada</div>
+        <div class="phone-wrap"><img src="images/screenshot-3.png" alt="Prepayment Calculator"/></div>
+        <div class="screenshot-caption">Prepayment Calculator</div>
       </div>
       <div class="screenshot-item">
-        <div class="phone-wrap"><img src="images/screenshot-4.png" alt="Calculadora de depósitos"/></div>
-        <div class="screenshot-caption">Calculadora de depósitos</div>
+        <div class="phone-wrap"><img src="images/screenshot-4.png" alt="Deposit Calculator"/></div>
+        <div class="screenshot-caption">Deposit Calculator</div>
       </div>
       <div class="screenshot-item">
-        <div class="phone-wrap"><img src="images/screenshot-5.png" alt="Calculadora de capital"/></div>
-        <div class="screenshot-caption">Calculadora de capital</div>
+        <div class="phone-wrap"><img src="images/screenshot-5.png" alt="Capital Calculator"/></div>
+        <div class="screenshot-caption">Capital Calculator</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── SIMULADOR ── -->
-<section class="simulador-section" id="simulador">
+<!-- ── SIMULATOR ── -->
+<section class="simulador-section" id="simulator">
   <div class="simulador-inner">
     <div>
-      <span class="section-label">Simulador de préstamos</span>
-      <h2 class="section-title">Introduce el importe.<br/>Conoce tu cuota al instante.</h2>
-      <p class="section-sub">El simulador más completo para calcular préstamos en iOS. Con un solo gesto, obtén tu cuota mensual, el total de intereses y el cuadro de amortización.</p>
+      <span class="section-label">Loan Simulator</span>
+      <h2 class="section-title">Enter the amount.<br/>Know your payment instantly.</h2>
+      <p class="section-sub">The most complete loan simulator for iOS. With a single tap, get your monthly payment, total interest and full amortization schedule.</p>
       <ul class="sim-points">
         <li class="sim-point">
           <div class="sim-point-icon">✅</div>
           <div class="sim-point-text">
-            <h4>Cuota mensual exacta</h4>
-            <p>Obtén la cuota mensual de tu préstamo al céntimo, con o sin periodo de carencia.</p>
+            <h4>Exact monthly payment</h4>
+            <p>Get the precise monthly payment for your loan, with or without a grace period.</p>
           </div>
         </li>
         <li class="sim-point">
           <div class="sim-point-icon">⚡</div>
           <div class="sim-point-text">
-            <h4>Total de intereses</h4>
-            <p>Descubre cuánto pagarás en total durante la vida del préstamo y cuánto corresponde a intereses.</p>
+            <h4>Total interest cost</h4>
+            <p>See exactly how much you'll pay over the life of the loan and how much goes to interest.</p>
           </div>
         </li>
         <li class="sim-point">
           <div class="sim-point-icon">🎯</div>
           <div class="sim-point-text">
-            <h4>Amortización anticipada</h4>
-            <p>Con un importe de amortización extra, calcula cuánto tiempo y dinero ahorras en intereses.</p>
+            <h4>Early repayment savings</h4>
+            <p>With an extra lump-sum payment, calculate how much time and money you save on interest.</p>
           </div>
         </li>
       </ul>
     </div>
 
     <div class="sim-card">
-      <div class="sim-card-title">Simulador de cuota</div>
-      <div class="sim-score-big">€ 842</div>
-      <div class="sim-score-sub">Cuota mensual estimada · 150.000 € | 25 años | 3,5 %</div>
+      <div class="sim-card-title">Payment Simulator</div>
+      <div class="sim-score-big">$ 842</div>
+      <div class="sim-score-sub">Estimated monthly payment · $150,000 | 25 years | 3.5%</div>
       <div class="sim-slider"></div>
       <div class="sim-results">
         <div class="sim-result-row">
           <div>
-            <div class="sim-result-name">Total a pagar</div>
-            <div class="sim-result-uni">Capital + Intereses</div>
+            <div class="sim-result-name">Total amount payable</div>
+            <div class="sim-result-uni">Principal + Interest</div>
           </div>
-          <span class="sim-chip green">252.600 €</span>
+          <span class="sim-chip green">$252,600</span>
         </div>
         <div class="sim-result-row">
           <div>
-            <div class="sim-result-name">Total de intereses</div>
-            <div class="sim-result-uni">Coste financiero</div>
+            <div class="sim-result-name">Total interest</div>
+            <div class="sim-result-uni">Financing cost</div>
           </div>
-          <span class="sim-chip yellow">102.600 €</span>
+          <span class="sim-chip yellow">$102,600</span>
         </div>
         <div class="sim-result-row">
           <div>
-            <div class="sim-result-name">Amortizando 10.000 € hoy</div>
-            <div class="sim-result-uni">Ahorro estimado en intereses</div>
+            <div class="sim-result-name">Prepaying $10,000 today</div>
+            <div class="sim-result-uni">Estimated interest savings</div>
           </div>
-          <span class="sim-chip green">−6.840 €</span>
+          <span class="sim-chip green">−$6,840</span>
         </div>
       </div>
     </div>
@@ -525,42 +522,42 @@
 <section class="how-section">
   <div class="how-inner">
     <div class="section-header" style="text-align:center;">
-      <span class="section-label">Cómo funciona</span>
-      <h2 class="section-title">Tres pasos.<br/>Resultados al instante.</h2>
+      <span class="section-label">How it works</span>
+      <h2 class="section-title">Three steps.<br/>Instant results.</h2>
     </div>
     <div class="how-steps">
       <div class="how-step">
         <div class="how-step-num">1</div>
-        <h3>Elige el cálculo</h3>
-        <p>Selecciona entre préstamo, depósito, amortización anticipada o cálculo de capital.</p>
+        <h3>Choose a calculator</h3>
+        <p>Select from loan, deposit, prepayment or capital calculator depending on what you need.</p>
       </div>
       <div class="how-step">
         <div class="how-step-num">2</div>
-        <h3>Introduce tus datos</h3>
-        <p>Ingresa el importe, el tipo de interés, el plazo y cualquier parámetro adicional.</p>
+        <h3>Enter your figures</h3>
+        <p>Input the amount, interest rate, term and any additional parameters.</p>
       </div>
       <div class="how-step">
         <div class="how-step-num">3</div>
-        <h3>Obtén el resultado</h3>
-        <p>Consulta la cuota, el desglose completo de intereses y el cuadro de amortización en segundos.</p>
+        <h3>Get your results</h3>
+        <p>View the payment breakdown, interest costs and full amortization table in seconds.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── CALCULADORAS ── -->
-<section class="calc-section" id="calculadoras">
+<!-- ── CALCULATORS ── -->
+<section class="calc-section" id="calculators">
   <div class="calc-inner">
-    <span class="section-label">Tipos de cálculo</span>
-    <h2 class="section-title">Toda la aritmética financiera<br/>que necesitas, organizada</h2>
+    <span class="section-label">Calculator types</span>
+    <h2 class="section-title">All the financial math<br/>you need, organized for you</h2>
     <div class="calc-grid">
-      <div class="calc-chip"><span class="dot" style="background:#3B7BF8;"></span>Hipoteca a tipo fijo</div>
-      <div class="calc-chip"><span class="dot" style="background:#8B5CF6;"></span>Hipoteca a tipo variable</div>
-      <div class="calc-chip"><span class="dot" style="background:#14B8A6;"></span>Préstamo personal</div>
-      <div class="calc-chip"><span class="dot" style="background:#F59E0B;"></span>Depósito a plazo fijo</div>
-      <div class="calc-chip"><span class="dot" style="background:#ef4444;"></span>Amortización anticipada</div>
-      <div class="calc-chip"><span class="dot" style="background:#10b981;"></span>Interés compuesto</div>
-      <div class="calc-chip"><span class="dot" style="background:#6366f1;"></span>Valor futuro del capital</div>
+      <div class="calc-chip"><span class="dot" style="background:#3B7BF8;"></span>Fixed-rate mortgage</div>
+      <div class="calc-chip"><span class="dot" style="background:#8B5CF6;"></span>Variable-rate mortgage</div>
+      <div class="calc-chip"><span class="dot" style="background:#14B8A6;"></span>Personal loan</div>
+      <div class="calc-chip"><span class="dot" style="background:#F59E0B;"></span>Fixed-term deposit</div>
+      <div class="calc-chip"><span class="dot" style="background:#ef4444;"></span>Early repayment (prepayment)</div>
+      <div class="calc-chip"><span class="dot" style="background:#10b981;"></span>Compound interest</div>
+      <div class="calc-chip"><span class="dot" style="background:#6366f1;"></span>Future value of capital</div>
     </div>
   </div>
 </section>
@@ -569,43 +566,43 @@
 <section class="testimonials-section">
   <div style="max-width:1000px; margin:0 auto;">
     <div class="section-header" style="text-align:center;">
-      <span class="section-label">Valoraciones</span>
-      <h2 class="section-title">Lo que dicen los usuarios</h2>
+      <span class="section-label">Reviews</span>
+      <h2 class="section-title">What users are saying</h2>
     </div>
     <div class="testimonials-grid">
 
       <div class="testimonial">
         <div class="stars">★★★★★</div>
-        <q>Llevo años buscando una app así. Calculo la amortización de mi hipoteca en segundos y veo exactamente cuánto ahorro si aporto capital extra. Imprescindible.</q>
+        <q>I've been looking for an app like this for years. I calculate the amortization of my mortgage in seconds and see exactly how much I save with extra payments. A must-have.</q>
         <div class="testimonial-author">
           <div class="author-avatar" style="background:linear-gradient(135deg,#3B7BF8,#8B5CF6);">M</div>
           <div class="author-info">
-            <strong>Marcos D.</strong>
-            <span>Propietario de vivienda, Madrid</span>
+            <strong>Mark D.</strong>
+            <span>Homeowner, New York</span>
           </div>
         </div>
       </div>
 
       <div class="testimonial">
         <div class="stars">★★★★★</div>
-        <q>Perfecta para comparar entre amortizar cuota o plazo. La tabla de amortización es clarísima y en dos toques ya tienes el resultado. Sin complicaciones.</q>
+        <q>Perfect for comparing whether to reduce the payment or the term when making a prepayment. The amortization table is super clear and results come up instantly.</q>
         <div class="testimonial-author">
           <div class="author-avatar" style="background:linear-gradient(135deg,#14B8A6,#3B7BF8);">S</div>
           <div class="author-info">
-            <strong>Sara T.</strong>
-            <span>Asesora financiera, Barcelona</span>
+            <strong>Sarah T.</strong>
+            <span>Financial Advisor, London</span>
           </div>
         </div>
       </div>
 
       <div class="testimonial">
         <div class="stars">★★★★★</div>
-        <q>Uso la calculadora de depósitos para comparar ofertas de distintos bancos. El diseño es limpio, funciona offline y no necesita ningún registro. Diez puntos.</q>
+        <q>I use the deposit calculator to compare offers from different banks. Clean design, works offline and no account needed. Exactly what I was looking for.</q>
         <div class="testimonial-author">
           <div class="author-avatar" style="background:linear-gradient(135deg,#F59E0B,#10b981);">R</div>
           <div class="author-info">
-            <strong>Rodrigo A.</strong>
-            <span>Inversor particular, Valencia</span>
+            <strong>Robert A.</strong>
+            <span>Private investor, Chicago</span>
           </div>
         </div>
       </div>
@@ -618,36 +615,36 @@
 <section class="premium-section">
   <div class="premium-inner">
     <div class="section-header">
-      <span class="section-label">Precio</span>
-      <h2 class="section-title">Todo gratis.<br/>Sin publicidad por 5,99 $.</h2>
-      <p class="section-sub">Todas las calculadoras son completamente gratuitas. El único pago opcional es para eliminar los anuncios — un único pago, para siempre.</p>
+      <span class="section-label">Pricing</span>
+      <h2 class="section-title">Everything free.<br/>Ad-free for $5.99.</h2>
+      <p class="section-sub">All four calculators are completely free. The only optional purchase is to remove ads — a one-time payment, forever.</p>
     </div>
     <div class="premium-grid">
 
       <div class="plan-card">
-        <div class="plan-name">Gratuito</div>
-        <div class="plan-price">0<small> €</small></div>
-        <div class="plan-desc">Acceso completo a todas las calculadoras.</div>
+        <div class="plan-name">Free</div>
+        <div class="plan-price">$0</div>
+        <div class="plan-desc">Full access to all calculators.</div>
         <ul class="plan-features">
-          <li><span class="check">✓</span> Calculadora de préstamos</li>
-          <li><span class="check">✓</span> Calculadora de depósitos</li>
-          <li><span class="check">✓</span> Amortización anticipada</li>
-          <li><span class="check">✓</span> Calculadora de capital</li>
-          <li><span class="check">✓</span> Cuadro de amortización completo</li>
-          <li><span class="cross">✕</span> Con anuncios</li>
+          <li><span class="check">✓</span> Loan calculator</li>
+          <li><span class="check">✓</span> Deposit calculator</li>
+          <li><span class="check">✓</span> Prepayment calculator</li>
+          <li><span class="check">✓</span> Capital calculator</li>
+          <li><span class="check">✓</span> Full amortization schedule</li>
+          <li><span class="cross">✕</span> Includes ads</li>
         </ul>
       </div>
 
       <div class="plan-card featured">
-        <div class="plan-badge">Pago único</div>
-        <div class="plan-name">Sin publicidad</div>
-        <div class="plan-price"><sup>$</sup>5<small>,99</small></div>
-        <div class="plan-desc">Paga una vez, sin anuncios para siempre.</div>
+        <div class="plan-badge">One-time purchase</div>
+        <div class="plan-name">Ad-free</div>
+        <div class="plan-price"><sup>$</sup>5<small>.99</small></div>
+        <div class="plan-desc">Pay once, no ads forever.</div>
         <ul class="plan-features">
-          <li><span class="check">✓</span> Todo lo gratuito incluido</li>
-          <li><span class="check">✓</span> Sin anuncios</li>
-          <li><span class="check">✓</span> Sin suscripciones ni renovaciones</li>
-          <li><span class="check">✓</span> Pago único de por vida</li>
+          <li><span class="check">✓</span> Everything in Free</li>
+          <li><span class="check">✓</span> No ads</li>
+          <li><span class="check">✓</span> No subscriptions or renewals</li>
+          <li><span class="check">✓</span> Lifetime one-time payment</li>
         </ul>
       </div>
 
@@ -660,58 +657,58 @@
   <div class="faq-inner">
     <div class="section-header" style="text-align:center;">
       <span class="section-label">FAQ</span>
-      <h2 class="section-title">Preguntas frecuentes</h2>
+      <h2 class="section-title">Frequently asked questions</h2>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q" onclick="toggle(this)">¿La app es gratuita? <span class="arrow">▼</span></div>
-      <div class="faq-a">Sí. Las cuatro calculadoras (préstamos, depósitos, amortización anticipada y capital) son completamente gratuitas. El único pago opcional (5,99 $ único) es para eliminar los anuncios de forma permanente.</div>
+      <div class="faq-q" onclick="toggle(this)">Is the app free? <span class="arrow">▼</span></div>
+      <div class="faq-a">Yes. All four calculators (loans, deposits, prepayment and capital) are completely free. The only optional purchase ($5.99 one-time) is to permanently remove ads.</div>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q" onclick="toggle(this)">¿Necesito crear una cuenta para usarla? <span class="arrow">▼</span></div>
-      <div class="faq-a">No. Capital funciona sin registro, sin cuenta y sin conexión a internet. Abre la app y empieza a calcular de inmediato. No recopilamos ningún dato personal.</div>
+      <div class="faq-q" onclick="toggle(this)">Do I need to create an account? <span class="arrow">▼</span></div>
+      <div class="faq-a">No. Capital works without registration, without an account and without an internet connection. Open the app and start calculating immediately. We don't collect any personal data.</div>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q" onclick="toggle(this)">¿Cómo calculo la amortización anticipada de mi hipoteca? <span class="arrow">▼</span></div>
-      <div class="faq-a">Ve a la sección «Amortización anticipada», introduce el capital pendiente de tu hipoteca, el tipo de interés, el plazo restante y el importe que quieres amortizar anticipadamente. La app te mostrará al instante cuánto ahorras en intereses y cuánto se reduce el plazo o la cuota.</div>
+      <div class="faq-q" onclick="toggle(this)">How do I calculate an early repayment on my mortgage? <span class="arrow">▼</span></div>
+      <div class="faq-a">Go to the Prepayment section, enter your outstanding mortgage balance, interest rate, remaining term and the lump-sum amount you want to repay early. The app will instantly show you how much you save in interest and how much the term or monthly payment is reduced.</div>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q" onclick="toggle(this)">¿Puedo ver el cuadro de amortización completo? <span class="arrow">▼</span></div>
-      <div class="faq-a">Sí. Desde la calculadora de préstamos puedes acceder al cuadro de amortización mensual completo, donde verás para cada período la cuota, los intereses pagados, la amortización de capital y el capital pendiente.</div>
+      <div class="faq-q" onclick="toggle(this)">Can I see the full amortization schedule? <span class="arrow">▼</span></div>
+      <div class="faq-a">Yes. From the loan calculator you can access the full monthly amortization table, where you'll see for each period the payment amount, interest paid, principal repaid and outstanding balance.</div>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q" onclick="toggle(this)">¿Qué diferencia hay entre reducir cuota y reducir plazo al amortizar? <span class="arrow">▼</span></div>
-      <div class="faq-a">Al amortizar anticipadamente puedes optar por reducir la cuota mensual (mantienes el plazo original pero pagas menos cada mes) o reducir el plazo (mantienes la cuota pero terminas antes de pagar). La calculadora te muestra el ahorro en intereses para ambas opciones.</div>
+      <div class="faq-q" onclick="toggle(this)">What's the difference between reducing the payment and reducing the term? <span class="arrow">▼</span></div>
+      <div class="faq-a">When making a prepayment you can choose to reduce the monthly payment (keeping the original term but paying less each month) or reduce the term (keeping the payment but finishing sooner). The calculator shows the interest savings for both options.</div>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q" onclick="toggle(this)">¿Está disponible para Android? <span class="arrow">▼</span></div>
-      <div class="faq-a">Actualmente Capital está disponible únicamente para iPhone (iOS 16+). Estamos valorando el soporte para Android en futuras versiones.</div>
+      <div class="faq-q" onclick="toggle(this)">Is it available for Android? <span class="arrow">▼</span></div>
+      <div class="faq-a">Capital is currently available for iPhone only (iOS 16+). We are evaluating Android support for future versions.</div>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q" onclick="toggle(this)">Pagué para quitar los anuncios pero siguen apareciendo. <span class="arrow">▼</span></div>
-      <div class="faq-a">Ve a Ajustes → Restaurar compra dentro de la app. Esto verificará tu compra con Apple y eliminará todos los anuncios. Asegúrate de estar conectado con el mismo Apple ID que usaste al comprar.</div>
+      <div class="faq-q" onclick="toggle(this)">I paid to remove ads but they're still showing. <span class="arrow">▼</span></div>
+      <div class="faq-a">Go to Settings → Restore Purchase inside the app. This will verify your purchase with Apple and remove all ads. Make sure you're signed in with the same Apple ID you used when purchasing.</div>
     </div>
   </div>
 </section>
 
 <!-- ── DOWNLOAD CTA ── -->
-<section class="download-section" id="descargar">
-  <h2>Tu dinero merece<br/>cálculos precisos</h2>
-  <p>Únete a los miles de usuarios que ya usan Capital para tomar mejores decisiones financieras. Gratis, en tu iPhone.</p>
-  <a href="https://apps.apple.com/es/app/capital/id6782654113" class="app-store-btn">
+<section class="download-section" id="download">
+  <h2>Your money deserves<br/>precise calculations</h2>
+  <p>Join thousands of users who already use Capital to make smarter financial decisions. Free, on your iPhone.</p>
+  <a href="https://apps.apple.com/app/capital/id6782654113" class="app-store-btn">
     <span class="store-icon">🍎</span>
     <div class="store-text">
-      <small>Disponible en</small>
+      <small>Download on the</small>
       <strong>App Store</strong>
     </div>
   </a>
-  <div class="download-note">Gratis · iOS 16+ · Sin registro</div>
+  <div class="download-note">Free · iOS 16+ · No sign-up required</div>
 </section>
 
 <!-- ── FOOTER ── -->
@@ -723,15 +720,15 @@
         <span>Capital</span>
       </div>
       <div class="footer-links">
-        <a href="index.html">Inicio</a>
-        <a href="privacy.html">Política de privacidad</a>
-        <a href="terms.html">Términos de uso</a>
-        <a href="support.html">Soporte</a>
-        <a href="https://apps.apple.com/es/app/capital/id6782654113">App Store</a>
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="support.html">Support</a>
+        <a href="https://apps.apple.com/app/capital/id6782654113">App Store</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2026 Capital — Loans · Prepayment · Deposits. Todos los derechos reservados.</p>
+      <p>© 2026 Capital — Loans · Prepayment · Deposits. All rights reserved.</p>
     </div>
   </div>
 </footer>
